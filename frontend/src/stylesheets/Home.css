@@ -1,0 +1,351 @@
+.home-page {
+    text-align: center;
+    overflow: hidden;
+}
+
+#foot10 {
+    text-align: left;
+}
+
+.home-backdiv {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.home-backdiv img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.home-head {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 9vw;
+    text-shadow: 0.5rem 0.45rem 0.825rem rgba(0, 0, 0, 1);
+}
+
+.home-scrolldown {
+    position: absolute;
+    bottom: 4vh;
+    height: 12vh;
+    width: 14.5vh;
+    left: 47%;
+    cursor: pointer;
+}
+
+.home-scrolldown .home-common {
+    position: absolute;
+    height: 5%;
+    width: 68%;
+    margin-left: -58%;
+    margin-top: 25%;
+    background-color: white;
+}
+
+.home-scrolldown .home-line1 {
+    transform: rotate(45deg);
+}
+
+.home-scrolldown .home-line2 {
+    transform: rotate(45deg);
+    top: 35%;
+}
+
+.home-scrolldown .home-line3 {
+    transform: rotate(-45deg);
+    left: 96.5%;
+}
+
+.home-scrolldown .home-line4 {
+    transform: rotate(-45deg);
+    left: 96.5%;
+    top: 35%;
+}
+
+.home-section2 {
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6vh;
+    text-align: center;
+    padding: 7rem 0 0 0;
+    font-family: "Lato", sans-serif;
+}
+
+.home-section2 .home-text1 {
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+.home-section2 .home-text2 {
+    padding: 0 18% 0 18%;
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 1.15rem;
+    letter-spacing: 1%;
+}
+
+.home-section2 .home-text2 .home-boldtext {
+    display: block;
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-bottom: 1%;
+}
+
+.home-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5%;
+    flex-wrap: wrap;
+}
+
+.home-boxes img {
+    height: 100px;
+    width: 100px;
+}
+
+#racingjhanda {
+    height: 100px;
+    width: 150px;
+}
+
+.home-boxes .home-box {
+    width: 17vw;
+    min-width: 15rem;
+    padding: 1.5rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.2rem;
+    border-radius: 15% / 10%;
+    margin-bottom: 6vh;
+}
+
+.home-boxes .home-box:nth-child(1) {
+    background-color: #e4621c;
+}
+
+.home-boxes .home-box:nth-child(2) {
+    background-color: #ff8c10;
+}
+
+.home-boxes .home-box:nth-child(3) {
+    background-color: #f3a633;
+}
+
+.home-boxes .home-box .home-flextitle {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.home-boxes .home-box .home-flexcontent {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.home-aboutus {
+    width: 100%;
+    display: flex;
+}
+
+.home-aboutus .home-container {
+    background-color: #e87130;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-aboutus .home-container2 {
+    background-color: #e87130;
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-aboutus .home-text1 {
+    display: block;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+}
+
+.home-aboutus .home-text2 {
+    display: block;
+    font-weight: 400;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+    padding: 0 9%;
+    margin-bottom: 3rem;
+}
+
+.home-aboutus button {
+    padding: 0.55rem 2rem;
+    width: 25%;
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 110%;
+    background-image: linear-gradient(to right, #008083, #249ea0);
+    border: 0;
+    cursor: pointer;
+}
+
+.home-aboutus .home-bgimg {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    background-size: 60%;
+    background-position: 101% 70%;
+    background-attachment: fixed;
+}
+
+.home-aboutvjti {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.home-aboutvjti .home-bgimg {
+    background-size: 65%;
+    background-position: -40% 100%;
+    left: 0;
+}
+
+.home-aboutvjti .home-container2 {
+    background-color: #f49100;
+}
+
+.home-achievements .home-container {
+    background-color: #249ea0;
+}
+
+.home-activities .home-container2 {
+    background-color: #008083;
+}
+
+.home-achievements button,
+.home-activities button {
+    background-image: linear-gradient(to right, #fd5901, #faab36);
+}
+
+.home-activities .home-bgimg {
+    background-size: 75%;
+    background-position: 0% 70%;
+}
+
+.home-responsive {
+    display: none;
+}
+
+/* Responsive CSS */
+@media (orientation: portrait) {
+    .home-backdiv .home-head {
+        font-size: 18vw;
+        top: 43%;
+        left: 10%;
+    }
+
+    .home-backdiv .home-scrolldown {
+        height: 23vw;
+        width: 23vw;
+        left: 40%;
+    }
+
+    .home-aboutus {
+        display: none;
+    }
+
+    .home-responsive {
+        display: block;
+    }
+
+    .home-responsive .home-bgimg {
+        background-size: cover;
+        padding: 15% 0;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .home-responsive .home-container {
+        width: 60vw;
+        margin: 0 auto;
+        border-radius: 5%;
+        padding: 1.8rem;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 1.2rem;
+        font-family: "Lato", sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    .home-responsive .home-one {
+        background-color: #e87030d7;
+    }
+
+    .home-responsive .home-two {
+        background-color: #f49100d7;
+    }
+
+    .home-responsive .home-three {
+        background-color: #249ea0d7;
+    }
+
+    .home-responsive .home-four {
+        background-color: #008083d7;
+    }
+
+    .home-responsive .home-container h2 {
+        font-weight: 800;
+        font-size: 1.6rem;
+    }
+
+    .home-responsive .home-container span {
+        font-weight: 100;
+        font-size: 1.1rem;
+    }
+
+    .home-responsive .home-container .home-button1 {
+        padding: 0.6rem 2rem;
+        width: 60%;
+        font-family: "Lato", sans-serif;
+        color: white;
+        font-size: 100%;
+        background-image: linear-gradient(to right, #008083, #249ea0);
+        border: 0;
+        cursor: pointer;
+    }
+
+    .home-responsive .home-container .home-button2 {
+        background-image: linear-gradient(to right, #fd5901, #faab36);
+    }
+
+    .home-whiteline {
+        width: 100vw;
+        height: 0.5vh;
+        background-color: #c2bebe;
+    }
+}

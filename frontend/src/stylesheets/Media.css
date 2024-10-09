@@ -1,0 +1,147 @@
+/* Body */
+.background-section {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    background-repeat: repeat-x;
+}
+
+.page-title {
+    position: relative;
+    top: 18%;
+    left: 24%;
+    color: white;
+    font-size: 22vw;
+    text-shadow: 0.5rem 0.45rem 0.825rem rgba(0, 0, 0, 1);
+    letter-spacing: 0.5vw;
+}
+
+.carousel-heading {
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Media Container */
+.media-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    background-repeat: repeat-x;
+    height: 2350px;
+    padding-top: 150px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .media-container {
+        height: auto;
+    }
+
+    .backgnd .head {
+        font-size: 12vw;
+        top: 30%;
+        left: 20%;
+    }
+
+    .page-title {
+        font-size: 20vw;
+        top: 20%;
+        left: 15%;
+    }
+}
+
+@media (max-width: 992px) {
+    .media-container {
+        height: auto;
+    }
+
+    .backgnd .head {
+        font-size: 10vw;
+        top: 25%;
+        left: 18%;
+    }
+
+    .page-title {
+        font-size: 18vw;
+        top: 22%;
+        left: 12%;
+    }
+}
+
+@media (max-width: 768px) {
+    .media-container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .backgnd .head {
+        font-size: 8vw;
+        top: 28%;
+        left: 15%;
+    }
+
+    .page-title {
+        font-size: 15vw;
+        top: 25%;
+        left: 10%;
+    }
+}
+
+@media (max-width: 576px) {
+    .media-container {
+        height: auto;
+        padding: 5px;
+    }
+
+    .backgnd .head {
+        font-size: 6vw;
+        top: 32%;
+        left: 10%;
+    }
+
+    .page-title {
+        font-size: 12vw;
+        top: 28%;
+        left: 8%;
+    }
+}
+
+/* For large screens (PCs and Laptops) */
+@media (min-width: 1200px) {
+    #competition-heading {
+        margin-top: 20px;
+        /* Adjust this for large screens */
+    }
+}
+
+/* For medium screens (Tablets and smaller laptops) */
+@media (max-width: 1200px) and (min-width: 992px) {
+    #competition-heading {
+        margin-top: -50px;
+        /* Increase margin on medium screens */
+    }
+}
+
+/* For small screens (iPads, Tablets) */
+@media (max-width: 992px) and (min-width: 768px) {
+    #competition-heading {
+        margin-top: 60px;
+        /* More space on small screens */
+    }
+}
+
+/* For extra small screens (Mobile phones) */
+@media (max-width: 768px) {
+    #competition-heading {
+        margin-top: 150px;
+        /* Max space for mobile devices */
+    }
+}

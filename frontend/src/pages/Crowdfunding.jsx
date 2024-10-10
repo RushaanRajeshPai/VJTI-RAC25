@@ -16,7 +16,7 @@ import "../stylesheets/Crowdfunding.css";
 import Navbar from "../components/Navbar";
 
 
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import bg from "../assets/Crowdfunding/bg.png";
 import im1 from "../assets/Crowdfunding/mb.png";
 import im2 from "../assets/Crowdfunding/forza.png";

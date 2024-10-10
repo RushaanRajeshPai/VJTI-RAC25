@@ -3,7 +3,7 @@ import React from "react";
 import { useRef } from "react";
 import Navbar from "../components/Navbar";
 import Block from "../components/block";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import bckgd from "../assets/Home/bckgd.jpg";
 import "../stylesheets/Competitions.css";
 

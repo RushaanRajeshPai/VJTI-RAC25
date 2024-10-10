@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import { useRef, React } from "react";
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 import "../stylesheets/Home.css";
 import bckgd from "../assets/Home/bckgd.jpg";

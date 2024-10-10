@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import Carousel from './Carousel';
 import '../stylesheets/Media.css';
 // import i1 from "../assets/Media/i1.png";

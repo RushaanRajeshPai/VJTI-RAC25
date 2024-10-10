@@ -13,10 +13,11 @@ export default defineConfig({
                 },
             },
         },
-        chunkSizeWarningLimit: 1000, // in kBs, adjust as needed
+        chunkSizeWarningLimit: 1000, // Set a warning limit for chunk sizes in KB
     },
     optimizeDeps: {
-        exclude: ['/.jpg', '/.png', '/.jpeg', '/.gif'], // Exclude image files from optimization
+        exclude: ['.jpg', '.png', '.jpeg', '.gif'], // Exclude image files from optimization
     },
-    assetsInclude: ['/*.JPG'], // Include uppercase JPG files as assets
+    assetsInclude: ['**/*.JPG'], // Include uppercase JPG files as assets
 });
+

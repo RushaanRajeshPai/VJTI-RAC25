@@ -121,9 +121,9 @@ const Footer = () => {
 
                         <div className="credits">
                             <h5>
-                                Kedar Dhamankar{" "}
+                                Rushaan Pai{" "}
                                 <a
-                                    href="https://www.linkedin.com/in/kedar-dhamankar"
+                                    href="https://www.linkedin.com/in/rushaan-pai"
                                     style={{
                                         color: "white",
                                         textDecoration: "none",
@@ -133,9 +133,9 @@ const Footer = () => {
                                 </a>
                             </h5>
                             <h5>
-                            Rucha Patil{" "}
+                                Svayam Mehta{" "}
                                 <a
-                                    href="https://www.linkedin.com/in/rucha-patil-593070258/"
+                                    href="https://www.linkedin.com/in/svayam-mehta10"
                                     style={{
                                         color: "white",
                                         textDecoration: "none",
